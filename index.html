@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS QUIZ</title>
+    <link rel="stylesheet" href="./style.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7 shadow-lg p-3 mb-5 bg-white rounded">
+                <h1 class="text-center">JS QUIZ</h1>
+                <div id="quiz">
+                    <h2 id="question">Question</h2>
+                        <li>
+                            <input type="radio" class="answer" name = "option" id="a">
+                            <label for="a" id="a-value" >Option</label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" name = "option" id="b">
+                            <label for="b" id="b-value" >Option b</label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" name = "option" id="c">
+                            <label for="c" id="c-value" >Option c</label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" name = "option" id="d">
+                            <label for="d" id="d-value" >Option d</label>
+                        </li>
+                        <button id="submit" class="btn btn-primary">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>
